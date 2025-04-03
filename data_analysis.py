@@ -9,10 +9,8 @@ import streamlit as st
 from google import genai
 import os
 
+# INSERT GEMINI API KEY HERE OR CREATE A ENVIRONMENT VARIABLE WITH NAME "API_GEMINI"
 client = genai.Client(api_key=os.environ["API_GEMINI"])
-
-
-
 
 
 new_column_names = {
